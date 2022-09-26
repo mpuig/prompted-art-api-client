@@ -3,9 +3,12 @@
 This is a simple API client to send your generated art to prompted.art.
 
 ```
-client = PromptedAPI(
+from prompted_art_api.client import PromptedArtAPI
+
+client = PromptedArtAPI(
     api_key="334d39db1f0d43859419bf5039a49a1b206062e5"
 )
+
 data = {
     "prompt": "test from colab",
     "source": "midjourney",

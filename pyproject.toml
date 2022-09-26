@@ -20,3 +20,8 @@ classifiers = [
 ]
 license = { file = "LICENSE" }
 keywords = ["API", "REST", "generative art", "stable diffusion"]
+
+[project.urls]
+Homepage = "https://github.com/mpuig/prompted-art-api-client"
+
+
